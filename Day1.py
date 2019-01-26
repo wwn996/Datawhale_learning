@@ -181,16 +181,11 @@ print "a[1:4] 输出结果：", a[1:4]  # [:] 截取字符串中的一部分
 """
 
 # 三、作业
-
-
 import datetime
 today = datetime.date.today()
-print("你好，请输入您的姓名：")
-Name = input()
-print("请输入您的性别：")
-Sex = input()
-print("请输入您的年龄：")
-Age = input()
+Name = input("你好，请输入您的姓名：")
+Sex = input("请输入您的性别：")
+Age = input("请输入您的年龄：")
 Age = int(Age)
 Year = today.year - Age
 message = "您的姓名是：%s, 您的性别是：%s, 您是 %d年出生的" %(Name, Sex, Year),
