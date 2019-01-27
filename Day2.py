@@ -257,17 +257,25 @@ print(ltu)
 #
 # 三、作业
 # 定义一个列表，包含自己的家庭成员，，并在指定位置插入给定元素，例如你的男女朋友名称等。再将男女朋友名字移除等操作。
+# 创建列表
 list = ['father','mother', 'sister', 'brother']
 list1 = ['uncle', 'anut', 'cousin']
+# 添加
 list.append('boyfriend')
 list
 list.insert(5, 'girlfriend')
 list
+# 修改
 list[5] = 'friend'
 list
+# 删除
 list.pop()
 list
 del list[4]
 list 
+# 列表拼接
 list2 = list + list1
+# 查询
 list2
+list2[2]
+
